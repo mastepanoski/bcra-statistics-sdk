@@ -1,6 +1,6 @@
 {
   "name": "bcra-statistics-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Mauro Stepanoski <mastepanoski@taidynamics.com.ar>",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "typescript": "^5.0.0"
   },
   "bugs": "https://github.com/mastepanoski/bcra-statistics-sdk/issues",
-  "description": "",
+  "description": "This package provides a convenient way for Node.js applications to interact with the Statistics API of the Central Bank of Argentina (Banco Central de la República Argentina, BCRA).",
   "files": [
     "dist"
   ],
