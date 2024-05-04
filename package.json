@@ -1,0 +1,41 @@
+{
+  "name": "bcra-statistics-sdk",
+  "version": "1.0.5",
+  "author": "Mauro Stepanoski <mastepanoski@taidynamics.com.ar>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastepanoski/bcra-statistics-sdk.git"
+  },
+  "main": "dist/index.js",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-plugin-dts": "^0.2.3",
+    "jest": "^29.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "bugs": "https://github.com/mastepanoski/bcra-statistics-sdk/issues",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/mastepanoski/bcra-statistics-sdk#readme",
+  "keywords": [
+    "bun",
+    "bcra",
+    "api"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "bun run build.mjs",
+    "prepublishOnly": "bun run build",
+    "test": "NODE_TLS_REJECT_UNAUTHORIZED=0 bun test"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "xior": "^0.4.3"
+  }
+}
